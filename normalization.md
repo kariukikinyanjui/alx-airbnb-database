@@ -52,5 +52,5 @@ The database schema privided satisfies `1NF`, `2NF`, and `3NF`. No further adjus
 | Payment   | `3NF`       | All attributes depend solely on `payment_id`.      |
 | Review    | `3NF`       | All attributes depend solely on `review_id`.       |
 | Message   | `3NF`       | All attributes depend solely on `message_id`.      |
-|-----------|-------------|----------------------------------------------------|
+
 
