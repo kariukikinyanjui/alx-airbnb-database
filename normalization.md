@@ -45,5 +45,12 @@ The database schema privided satisfies `1NF`, `2NF`, and `3NF`. No further adjus
 
 ## Schema Compliance Summary
 | Table     | Normal Form | Notes
-|-----------|-------------|----------------------------------------------------|| User      | `3NF`       | All attributes depend solely on `user_id`.         || Property  | `3NF`       | All attributes depend solely on `property_id`.     || Booking   | `3NF`       | All attributes depend solely on `booking_id`.      || Payment   | `3NF`       | All attributes depend solely on `payment_id`.      || Review    | `3NF`       | All attributes depend solely on `review_id`.       || Message   | `3NF`       | All attributes depend solely on `message_id`.      |
+|-----------|-------------|----------------------------------------------------|
+| User      | `3NF`       | All attributes depend solely on `user_id`.         |
+| Property  | `3NF`       | All attributes depend solely on `property_id`.     |
+| Booking   | `3NF`       | All attributes depend solely on `booking_id`.      |
+| Payment   | `3NF`       | All attributes depend solely on `payment_id`.      |
+| Review    | `3NF`       | All attributes depend solely on `review_id`.       |
+| Message   | `3NF`       | All attributes depend solely on `message_id`.      |
+|-----------|-------------|----------------------------------------------------|
 
