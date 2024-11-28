@@ -59,5 +59,5 @@ The sample data provides a foundation for testing and development of the platfor
 ### **Execution**
 1. Load the SQL script into your database:
    ```bash
-   mysql -u <username> -p <database_name> < populate_data.sql
+   mysql -u <username> -p <database_name> < seed.sql
 
